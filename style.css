@@ -1,0 +1,76 @@
+body{
+  background-image: url(./images/ojp.jpg);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;}
+
+h3 {
+    text-align: center;
+    text-decoration:;
+    font-size: 25px;
+    color: rgba(255, 8, 8, 0.973);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    height: 50%;}
+
+.regform {
+    color: hsl(0, 100%, 50%);
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  img header {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 133px;
+    height: 200px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+.border{
+    border-radius: 100%;
+}
+footer {
+  text-align: center;
+  background: #000;
+  color: #4CAF50;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
